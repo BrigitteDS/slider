@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);	
+
+html {
+  border-top: 5px solid #fff;
+  background: #000;
+  color: #2a2a2a;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans';
+}
+
+#slider {
+  position: relative;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+  border-radius: 4px;
+}
+
+#slider article {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  list-style: none;
+}
+
+#slider article a {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  height: 250px;
+  background: #ccc;
+  text-align: center;
+  line-height: 300px;
+}
+
+.previous, .next {
+  position: absolute;
+  top: 25%;
+  z-index: 999;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  color: rgba(255, 255, 255, 0.705);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 50px;
+  opacity: 0.8;
+  cursor: pointer;
+  
+}
+
+.previous, .next:hover {
+  opacity: 1;
+  -webkit-transition: all 1.5s ease;
+}
+
+.previous {
+  border-radius: 0 2px 2px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
+
+.slider_option {
+  position: relative;
+  margin: 10px auto;
+  width: 160px;
+  font-size: 18px;
+}
+
+
+.landig-casino-background-mobile {
+  background-image: url(https://content.gmgamingsystems.com/medialibraries/content.gmgamingsystems.com/Betway-PT/casino-mobile.jpg);
+  background-size: 100% 100%;
+  padding: 125px 0;
+  width: 100%;
+  float: right;
+  background-repeat: no-repeat;
+}
+.landig-sports-background-mobile {
+  background-image: url(https://content.gmgamingsystems.com/medialibraries/content.gmgamingsystems.com/Betway-PT/sports-mobile.jpg);
+  background-size: 100% 100%;
+  padding: 125px 0;
+  width: 100%;
+  float: right;
+  background-repeat: no-repeat;
+}
